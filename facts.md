@@ -1,0 +1,28 @@
+# 毛孩子 / Pet Care Notes — facts
+
+- status: live on the App Store
+- version: 1.1
+- price: free
+- apple_id: 6788202619
+- app_store: https://apps.apple.com/app/id6788202619
+- chinese_name: 毛孩子
+- chinese_store_name: 毛孩子宠物健康记录
+- english_store_name: Pet Care Notes
+- english_home_screen: Care Notes
+- former_name: 毛迹
+- bundle_id: com.codex.maoke
+- platform: iPhone, iOS 17.0+
+- account: none
+- cloud_sync: none (no iCloud / CloudKit)
+- ads: none
+- analytics: none
+- tracking: no
+- app_store_privacy: Data Not Collected
+- healthkit: no
+- camera: closed; photos via system picker only
+- notifications: local, after user permission
+- languages: 13 (zh-Hans, zh-Hant, en, ja, ko, es, fr, de, pt-BR, ar, hi, ru, id)
+- developer: Weizhichao Wei / 卫智超, Shanghai
+- email: weizhichao1027@gmail.com
+- site_origin: https://weizhichao1027-collab.github.io/maoji-app-store-pages
+- updated: 2026-09-16

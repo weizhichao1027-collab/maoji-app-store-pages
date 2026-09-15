@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://weizhichao1027-collab.github.io/maoji-app-store-pages/sitemap.xml

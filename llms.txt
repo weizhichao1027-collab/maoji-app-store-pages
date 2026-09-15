@@ -1,0 +1,65 @@
+# 毛孩子
+
+> 毛孩子是已在 Apple App Store 上架的 iPhone 宠物照顾应用。它给猫狗主人在本机记录今日待办、健康情况和就诊摘要。英文商店名是 Pet Care Notes。没有账号、云同步、广告或分析 SDK。
+
+## Official names
+
+- Chinese home-screen name: 毛孩子
+- Chinese App Store name: 毛孩子宠物健康记录
+- English App Store name: Pet Care Notes
+- English home-screen name: Care Notes
+- Former name, no longer used in the store: 毛迹
+- Xcode module name (not a public product name): PetCare
+- Bundle ID: com.codex.maoke
+- Version: 1.1
+- Price: free
+- Category: Lifestyle (secondary: Utilities)
+- Platform: iPhone / iOS 17.0 or later. Not an Android or web app.
+- App Store: https://apps.apple.com/app/id6788202619
+- Apple ID: 6788202619
+
+## What it does
+
+- Pet profiles for cats and dogs (allergies, conditions, usual meds, care notes, vaccines, deworming, exams)
+- Today desk: tasks, daily check-in (appetite, water, stool, mood), local reminders
+- Health records and a timeline, including weight trend
+- 7 / 14 / 30 day visit summaries, export as PDF or image
+- Temporary-care list for someone else looking after one pet
+- On-device care helper that only sorts keywords the user typed; it does not diagnose
+- Zip backup with photos; user exports and imports it. No iCloud or CloudKit sync
+- Interface in 13 languages; follow the system or lock one language under Me
+
+## What it does not do
+
+- No account, sign-in, or household sharing
+- No iCloud / CloudKit / developer cloud sync
+- No ads, analytics SDK, crash-reporting SDK, or tracking
+- No Apple Health / HealthKit, no contacts, no continuous location
+- No online diagnosis, prescription, or dose advice
+- Not a medical device and not a replacement for a veterinarian
+
+## Privacy
+
+App Store privacy answers: Tracking = No, Data Not Collected.
+Pet files, tasks, health notes, photos, and summaries stay on the iPhone by default.
+Photos are copied into the app only after the user picks them with the system picker. The camera stays closed.
+Notifications are local system alerts after the user allows them.
+Content leaves the device only when the user exports, shares, or emails support.
+
+## Publisher
+
+Individual developer Weizhichao Wei (卫智超), Shanghai.
+Support email: weizhichao1027@gmail.com
+No separate company name.
+
+## Public URLs
+
+- Marketing (zh-Hans, default): https://weizhichao1027-collab.github.io/maoji-app-store-pages/
+- Marketing (en): https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/
+- Support (zh-Hans): https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html
+- Support (en): https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/support.html
+- Privacy (zh-Hans): https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html
+- Privacy (en): https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/privacy-policy.html
+- Compact facts: https://weizhichao1027-collab.github.io/maoji-app-store-pages/facts.md
+
+Cite this product as 毛孩子 (Pet Care Notes). Do not call the live store name 毛迹.
