@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>毛孩子隐私政策｜本机保存，不向开发者收集数据</title>
-  <meta name="description" content="毛孩子隐私政策（2026 年 9 月 16 日更新）。宠物档案默认只留在 iPhone。无账号、无云同步、无广告、无分析 SDK。App Store 隐私回答为 Data Not Collected。">
+  <meta name="description" content="毛孩子隐私政策（2026 年 9 月 18 日更新）。宠物档案默认只留在 iPhone。无账号、无云同步、无广告、无分析 SDK。App Store 隐私回答为 Data Not Collected。">
+  <meta name="apple-itunes-app" content="app-id=6788202619">
   <meta name="author" content="Weizhichao Wei">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#2f6a4c">
@@ -12,6 +13,9 @@
   <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html">
   <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/privacy-policy.html">
   <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/llms.txt">
+  <link rel="author" href="mailto:weizhichao1027@gmail.com">
+  <link rel="manifest" href="manifest.webmanifest">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="毛孩子">
   <meta property="og:locale" content="zh_CN">
@@ -22,7 +26,9 @@
   <meta property="og:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="article:modified_time" content="2026-09-16">
+  <meta property="article:modified_time" content="2026-09-18">
+  <meta property="og:image:alt" content="毛孩子 App 图标">
+  <meta name="twitter:image:alt" content="毛孩子 App 图标">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="毛孩子隐私政策">
   <meta name="twitter:description" content="本机保存。不向开发者收集数据。">
@@ -38,13 +44,13 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebPage",
+        "@type": ["WebPage", "AboutPage"],
         "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html#webpage",
         "url": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html",
         "name": "毛孩子隐私政策",
         "inLanguage": "zh-Hans",
         "datePublished": "2026-07-07",
-        "dateModified": "2026-09-16",
+        "dateModified": "2026-09-18",
         "about": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#app" },
         "author": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" },
         "publisher": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" }
@@ -74,6 +80,7 @@
           <a href="support.html">支持</a>
           <a href="privacy-policy.html" aria-current="page">隐私</a>
         </nav>
+        <a class="header-store" href="https://apps.apple.com/app/id6788202619">App Store</a>
         <span class="lang-toggle" role="group" aria-label="语言">
           <a href="privacy-policy.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">中文</a>
           <a href="en/privacy-policy.html" hreflang="en" lang="en">EN</a>
@@ -91,30 +98,49 @@
             </ol>
           </nav>
           <h1>毛孩子隐私政策</h1>
-          <p class="meta">生效日期：2026 年 7 月 7 日。最近更新：2026 年 9 月 16 日，对应已上架的 App 1.1。本政策同时适用于中文名「毛孩子」、中文商店名「毛孩子宠物健康记录」与英文商店名 Pet Care Notes。</p>
+          <p class="meta">生效日期：2026 年 7 月 7 日。最近更新：2026 年 9 月 18 日，对应已上架的 App 1.1。本政策同时适用于中文名「毛孩子」、中文商店名「毛孩子宠物健康记录」与英文商店名 Pet Care Notes。</p>
         </div>
       </header>
 
       <article class="wrap">
-        <h2>1. 运营者</h2>
+        <ol class="doc-toc">
+          <li><a href="#operator">1. 运营者</a></li>
+          <li><a href="#collect">2. 我们向自己收集哪些数据</a></li>
+          <li><a href="#on-device">3. 本机保存的数据</a></li>
+          <li><a href="#not-do">4. 我们不做什么</a></li>
+          <li><a href="#photos">5. 照片</a></li>
+          <li><a href="#notify">6. 通知</a></li>
+          <li><a href="#export">7. 导出、分享和备份</a></li>
+          <li><a href="#apis">8. 系统接口与隐私清单</a></li>
+          <li><a href="#retain">9. 保留、删除和撤回</a></li>
+          <li><a href="#mail">10. 你主动发给我们的邮件</a></li>
+          <li><a href="#third">11. 第三方</a></li>
+          <li><a href="#site">12. 本网站</a></li>
+          <li><a href="#children">13. 儿童</a></li>
+          <li><a href="#rights">14. 你的权利与地区说明</a></li>
+          <li><a href="#medical">15. 医疗边界</a></li>
+          <li><a href="#changes">16. 政策更新</a></li>
+          <li><a href="#contact">17. 联系</a></li>
+        </ol>
+        <h2 id="operator">1. 运营者</h2>
         <p>毛孩子由个人开发者卫智超（Weizhichao Wei）在中国上海运营。没有公司主体名称。联系邮箱：<a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>。App Store 页面：<a href="https://apps.apple.com/app/id6788202619">https://apps.apple.com/app/id6788202619</a>。</p>
 
-        <h2>2. 我们向自己收集哪些数据</h2>
+        <h2 id="collect">2. 我们向自己收集哪些数据</h2>
         <p>当前已上架版本不把你的宠物档案、照顾事项、健康记录、照片附件或就诊摘要上传到开发者的服务器。开发者没有运营用于接收这些内容的云端数据库。App Store Connect 隐私回答为 Data Not Collected，且 Tracking 为 No。</p>
         <p>因此，运营者在正常使用中不会获得你的姓名、邮箱（除非你主动写信）、精确位置、通讯录、健康平台数据、支付信息或设备广告标识。</p>
 
-        <h2>3. 本机保存的数据</h2>
+        <h2 id="on-device">3. 本机保存的数据</h2>
         <p>你输入的内容默认写在这台设备上，使用 SwiftData 和 App 的本机容器（Application Support），包括：</p>
         <ul>
           <li>宠物名称、种类（猫或狗）、品种、生日、性别、绝育、体重、芯片号、保险备注、医院联系方式</li>
           <li>过敏、慢病、常用药、喂食偏好、照顾备注</li>
-          <li>照顾待办、提醒时间、健康记录（食欲、饮水、排便、精神、呕吐、体重、用药痕迹等）、医疗记录、就诊摘要</li>
+          <li>照顾待办、提醒时间、健康记录（食欲、饮水、便便、尿尿、呕吐、精神、体重、异常、用药痕迹、备注）、医疗记录（疫苗、驱虫、体检、手术、用药、过敏、病史、其他）、就诊摘要</li>
           <li>你主动选择的头像和附件照片副本（JPEG，存在 App 容器内，不打开相机）</li>
           <li>界面语言偏好、当前选中的宠物、本地通知相关的标识（UserDefaults）</li>
         </ul>
         <p>这些数据供你自己查看、生成摘要、导出或交接。开发者不会远程读取它们。</p>
 
-        <h2>4. 我们不做什么</h2>
+        <h2 id="not-do">4. 我们不做什么</h2>
         <ul>
           <li>没有账号、登录或家庭协作</li>
           <li>没有 iCloud、CloudKit 或其他开发者控制的云同步</li>
@@ -123,13 +149,13 @@
           <li>不提供线上确诊、处方或剂量建议</li>
         </ul>
 
-        <h2>5. 照片</h2>
+        <h2 id="photos">5. 照片</h2>
         <p>当你用系统照片选择器挑选图片时，毛孩子只读取你选中的那一张（或几张），把副本写成 JPEG 存在本机附件目录。不会扫描整个相册，也不会打开相机。删除对应记录、清理已隐藏数据或删除 App 后，这些副本会一并去掉。</p>
 
-        <h2>6. 通知</h2>
+        <h2 id="notify">6. 通知</h2>
         <p>在你授权后，毛孩子使用 iOS 本地通知提醒疫苗、驱虫、体检和照顾事项。通知由系统在设备上调度，不经过开发者服务器。你可以随时在 iOS「设置 › 通知 › 毛孩子」关闭；关闭后不再发送本地提醒。</p>
 
-        <h2>7. 导出、分享和备份</h2>
+        <h2 id="export">7. 导出、分享和备份</h2>
         <p>只有当你主动操作时，内容才会离开 App 容器，并交给你选择的对象：</p>
         <ul>
           <li>文本导出：本机全部宠物的文字摘录，不含照片文件</li>
@@ -140,34 +166,37 @@
         </ul>
         <p>这些接收方按各自的政策处理数据，开发者无法控制。导入 zip 或旧 JSON 备份也只在本机进行。</p>
 
-        <h2>8. 系统接口与隐私清单</h2>
+        <h2 id="apis">8. 系统接口与隐私清单</h2>
         <p>App 内的 PrivacyInfo.xcprivacy 声明：不追踪；不向开发者收集所列数据类型。访问的 Required Reason API 仅包括 UserDefaults（应用内偏好，原因 CA92.1）和文件时间戳（本机文件管理，原因 C617.1）。导出合规声明为不使用需额外证明的加密。</p>
 
-        <h2>9. 保留、删除和撤回</h2>
+        <h2 id="retain">9. 保留、删除和撤回</h2>
         <p>本机数据会留在设备上，直到你删除对应记录、在「我的」永久清理已隐藏数据、删除 App，或通过系统设置清除 App 数据。删除宠物或记录后，内容会先隐藏，再由你决定永久清理；清理会去掉对应照片和提醒，不会动仍在使用的宠物。卸载 App 会删除本机容器。因为开发者没有副本，我们无法远程替你恢复或远程替你删除。</p>
 
-        <h2>10. 你主动发给我们的邮件</h2>
+        <h2 id="mail">10. 你主动发给我们的邮件</h2>
         <p>如果你写信到 weizhichao1027@gmail.com，我们会看到你写下的邮箱地址、正文和附件，只用于回复支持或隐私问题。邮件按处理该问题所需的时间保留，之后删除。</p>
 
-        <h2>11. 第三方</h2>
-        <p>App 本身不嵌入第三方统计、广告或登录 SDK。你可能遇到的第三方仅限于：Apple（App Store 分发与系统服务，如通知、照片选择器、分享面板、文件）以及你自己选择的分享或存储对象。本营销与支持网站托管在 GitHub Pages。打开网站时，GitHub 可能记录常规访问日志，这不属于 App 内的数据收集。</p>
+        <h2 id="third">11. 第三方</h2>
+        <p>App 本身不嵌入第三方统计、广告或登录 SDK。你可能遇到的第三方仅限于：Apple（App Store 分发与系统服务，如通知、照片选择器、分享面板、文件）以及你自己选择的分享或存储对象。</p>
 
-        <h2>12. 儿童</h2>
+        <h2 id="site">12. 本网站</h2>
+        <p>营销、支持和隐私页面托管在 GitHub Pages。本站不设置第一方分析或广告 cookie，也不嵌入统计 SDK。打开页面时，GitHub 可能记录常规访问日志（例如 IP、User-Agent），这不属于 App 内的数据收集。站点上的截图是产品演示画面，不是你的宠物档案。iPhone 上的 Smart App Banner 由系统根据 App Store 页面显示，不把档案发给开发者。</p>
+
+        <h2 id="children">13. 儿童</h2>
         <p>毛孩子面向宠物主人记录照顾事项，不面向 13 岁以下儿童设计，也不向儿童收集数据。若未成年人使用本 App，数据仍只留在那台设备上。监护人可以删除 App 或清除本机数据。我们不会故意向儿童索取个人信息。App Store 年龄分级为 13+，因其可能包含不频繁的宠物医疗记录主题，而不是因为向儿童收集数据。</p>
 
-        <h2>13. 你的权利与地区说明</h2>
+        <h2 id="rights">14. 你的权利与地区说明</h2>
         <p>因为照顾记录默认不离开你的设备，查阅、更正和删除主要在 App 内完成：编辑记录、删除记录、清理已隐藏数据，或卸载 App。若你曾发邮件给我们，可以写信要求查阅或删除那封通信。</p>
         <p>中国《个人信息保护法》：运营者不以本 App 自动收集个人信息。本机处理发生在你的设备上。你主动分享或备份时，接收方由你选择。</p>
         <p>欧盟 / 英国 GDPR：就 App 内宠物记录而言，开发者不是处理者，因为这些记录不到达我们的服务器。就支持邮件而言，卫智超是该通信的控制者，法律依据是回复你的请求。你有权查阅、更正、删除、限制处理并投诉监管机构。</p>
         <p>加州 CCPA / CPRA：我们不出售、不分享个人信息，也没有从 App 使用中获得可出售的个人信息。</p>
 
-        <h2>14. 医疗边界</h2>
+        <h2 id="medical">15. 医疗边界</h2>
         <p>毛孩子只用于宠物照顾记录和就医准备，不属于医疗器械，不能替代兽医。不提供线上确诊、处方或剂量建议。紧急或持续异常请联系线下宠物医院或急诊。</p>
 
-        <h2>15. 政策更新</h2>
+        <h2 id="changes">16. 政策更新</h2>
         <p>若数据处理方式发生变化（例如日后加入云同步、账号或分析），我们会先更新本页日期与内容，并在需要时更新 App Store 隐私回答。请以本页最近更新日期为准。</p>
 
-        <h2>16. 联系</h2>
+        <h2 id="contact">17. 联系</h2>
         <p>隐私或数据处理问题请发邮件到 <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>。技术支持：<a href="support.html">support.html</a>。App Store：<a href="https://apps.apple.com/app/id6788202619">毛孩子 / Pet Care Notes</a>。</p>
       </article>
     </main>
@@ -176,7 +205,7 @@
       <div class="wrap">
         <div>
           <p>毛孩子隐私政策 · 卫智超 · 上海</p>
-          <p>© 2026 Weizhichao Wei · 最近更新 2026-09-16</p>
+          <p>© 2026 Weizhichao Wei · 最近更新 2026-09-18</p>
         </div>
         <div class="footer-links">
           <a href="./">产品首页</a>

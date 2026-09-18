@@ -3,30 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>毛孩子技术支持与常见问题｜安装、备份与联系</title>
-  <meta name="description" content="毛孩子已在 App Store 上架。本页说明如何安装更新、添加宠物、记录、备份、通知和删除数据。支持邮箱 weizhichao1027@gmail.com。">
+  <title>毛孩子技术支持与常见问题｜安装、备份、换机与联系</title>
+  <meta name="description" content="毛孩子已在 App Store 上架。本页说明如何安装更新、添加宠物、记录十类健康情况、生成就诊摘要、zip 备份换机、通知和删除数据。支持邮箱 weizhichao1027@gmail.com。">
   <meta name="author" content="Weizhichao Wei">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#2f6a4c">
   <meta name="apple-itunes-app" content="app-id=6788202619">
   <link rel="canonical" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html">
   <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html">
   <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/support.html">
   <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/llms.txt">
+  <link rel="author" href="mailto:weizhichao1027@gmail.com">
+  <link rel="manifest" href="manifest.webmanifest">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="毛孩子">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:title" content="毛孩子技术支持与常见问题">
-  <meta property="og:description" content="安装、今日待办、记录、备份、通知和联系邮箱。">
+  <meta property="og:description" content="安装、今日待办、十类记录、就诊摘要、zip 备份、通知和联系邮箱。">
   <meta property="og:url" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html">
   <meta property="og:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="毛孩子 App 图标">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="毛孩子技术支持与常见问题">
   <meta name="twitter:description" content="毛孩子使用说明、常见问题和联系方式。">
   <meta name="twitter:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
+  <meta name="twitter:image:alt" content="毛孩子 App 图标">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +48,7 @@
         "url": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html",
         "name": "毛孩子技术支持与常见问题",
         "inLanguage": "zh-Hans",
-        "dateModified": "2026-09-16",
+        "dateModified": "2026-09-18",
         "isPartOf": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#website" },
         "about": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#app" }
       },
@@ -55,79 +60,79 @@
         ]
       },
       {
+        "@type": "HowTo",
+        "name": "用 zip 备份把毛孩子换到新 iPhone",
+        "description": "毛孩子没有 iCloud 同步。换机前先在旧设备导出含照片的 zip，再在新设备导入。",
+        "totalTime": "PT10M",
+        "tool": [{ "@type": "HowToTool", "name": "两台 iPhone，均已安装毛孩子 1.1" }],
+        "step": [
+          { "@type": "HowToStep", "name": "在旧设备导出", "text": "打开毛孩子 › 我的 › 导出完整备份，保存 zip 到文件、电脑或你自己的云盘。" },
+          { "@type": "HowToStep", "name": "传到新设备", "text": "用隔空投送、线缆或你自己的云盘，把 zip 放到新 iPhone 能打开的位置。" },
+          { "@type": "HowToStep", "name": "在新设备导入", "text": "打开毛孩子 › 我的 › 导入备份，选择该 zip。同 ID 的宠物会合并更新。" }
+        ]
+      },
+      {
         "@type": "FAQPage",
         "mainEntity": [
           {
             "@type": "Question",
             "name": "毛孩子在哪里下载？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "毛孩子现已在 App Store 上架。在 iPhone 打开 App Store，搜索「毛孩子」或「Pet Care Notes」，或打开 https://apps.apple.com/app/id6788202619。App 免费，仅适用于 iPhone，需要 iOS 17 或更高版本。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "毛孩子现已在 App Store 上架。在 iPhone 打开 App Store，搜索「毛孩子」或「Pet Care Notes」，或打开 https://apps.apple.com/app/id6788202619。App 免费，仅适用于 iPhone，需要 iOS 17 或更高版本。" }
           },
           {
             "@type": "Question",
             "name": "如何更新毛孩子？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "在 iPhone 的 App Store 打开毛孩子页面，或到 App Store 的更新列表，点「更新」。当前商店版本是 1.1。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "在 iPhone 的 App Store 打开毛孩子页面，或到 App Store 的更新列表，点「更新」。当前商店版本是 1.1。" }
           },
           {
             "@type": "Question",
             "name": "如何添加一只宠物？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "打开毛孩子，进入「宠物」。如果还没有档案，点「添加宠物」；已有档案时点右上角加号。填写名字并选择猫或狗后保存，App 会按类型生成常用照顾待办。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "打开毛孩子，进入「宠物」。如果还没有档案，点「添加宠物」；已有档案时点右上角加号。填写名字并选择猫或狗后保存，App 会按类型生成常用照顾待办。" }
           },
           {
             "@type": "Question",
             "name": "今日待办和打卡怎么用？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "打开 App 先看「今日」。照顾舱、四项打卡（食欲、饮水、便便、精神）和待办都在这里。做完喂食或事项后点完成。疫苗、驱虫、体检到期也会显示在今日。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "打开 App 先看「今日」。照顾舱、四项打卡（食欲、饮水、便便、精神）和待办都在这里。做完喂食或事项后点完成。待办也可以点进去改期。疫苗、驱虫、体检到期也会显示在今日。" }
+          },
+          {
+            "@type": "Question",
+            "name": "健康记录有哪些类型？",
+            "acceptedAnswer": { "@type": "Answer", "text": "十类：食欲、饮水、便便、尿尿、呕吐、精神、体重、异常、用药、备注。记录可以点进详情或编辑。体重筛选旁有趋势入口。" }
+          },
+          {
+            "@type": "Question",
+            "name": "就诊摘要怎么生成？",
+            "acceptedAnswer": { "@type": "Answer", "text": "先有宠物和记录，再打开「摘要」，选择 7、14 或 30 天生成。摘要只整理你已经写下的内容，可导出 PDF 或图片，不会下诊断。" }
           },
           {
             "@type": "Question",
             "name": "毛孩子有没有 iCloud 或云同步？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "没有。毛孩子不提供 iCloud、CloudKit 或开发者服务器同步。换机请先在旧设备「我的」导出含照片的 zip，再在新设备导入。删掉 App 且未导出，本机数据会丢失。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "没有。毛孩子不提供 iCloud、CloudKit 或开发者服务器同步。换机请先在旧设备「我的」导出含照片的 zip，再在新设备导入。删掉 App 且未导出，本机数据会丢失。" }
           },
           {
             "@type": "Question",
             "name": "为什么到期没有提醒？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "到 iOS 设置 › 通知 › 毛孩子，打开允许通知。若曾点过不允许，App 无法自己打开。打开后再回「我的」同步一次提醒。提醒是本机通知，不经过开发者服务器。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "到 iOS 设置 › 通知 › 毛孩子，打开允许通知。若曾点过不允许，App 无法自己打开。打开后再回「我的」同步一次提醒。提醒是本机通知，不经过开发者服务器。" }
           },
           {
             "@type": "Question",
             "name": "如何删除毛孩子里的数据？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "删除宠物或记录后，数据会先隐藏。可在「我的」永久清理已隐藏数据，或卸载 App 清除本机容器。开发者没有云端副本，无法远程替你删除或恢复。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "删除宠物或记录后，数据会先隐藏。可在「我的」永久清理已隐藏数据，或卸载 App 清除本机容器。开发者没有云端副本，无法远程替你删除或恢复。" }
           },
           {
             "@type": "Question",
             "name": "毛孩子能诊断或建议用药吗？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "不能。摘要和照顾助手只整理你写下的内容，不提供诊断、处方或剂量建议。用药和诊断请询问线下兽医。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "不能。摘要和照顾助手只整理你写下的内容，不提供诊断、处方或剂量建议。用药和诊断请询问线下兽医。" }
+          },
+          {
+            "@type": "Question",
+            "name": "库打不开怎么办？",
+            "acceptedAnswer": { "@type": "Answer", "text": "如果本机库打不开，App 会显示恢复页：可以重试、导入备份，或重建空库。重建空库会丢掉当前设备上未导出的数据。" }
           },
           {
             "@type": "Question",
             "name": "如何联系毛孩子支持？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "写信到 weizhichao1027@gmail.com。请写上设备型号、iOS 版本、App 版本、所在页面和复现步骤。支持由开发者卫智超本人回复。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "写信到 weizhichao1027@gmail.com。请写上设备型号、iOS 版本、App 版本、所在页面和复现步骤。支持由开发者卫智超本人回复，通常在几个工作日内。" }
           }
         ]
       }
@@ -149,6 +154,7 @@
           <a href="support.html" aria-current="page">支持</a>
           <a href="privacy-policy.html">隐私</a>
         </nav>
+        <a class="header-store" href="https://apps.apple.com/app/id6788202619">App Store</a>
         <span class="lang-toggle" role="group" aria-label="语言">
           <a href="support.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">中文</a>
           <a href="en/support.html" hreflang="en" lang="en">EN</a>
@@ -168,7 +174,7 @@
           <p class="live-badge"><span class="live-dot" aria-hidden="true"></span>现已上架 · 版本 1.1</p>
           <p class="kicker">技术支持</p>
           <h1>怎么用，出了问题怎么办</h1>
-          <p>毛孩子是已在 App Store 上架的 iPhone 宠物照顾应用。没有账号系统。支持由开发者卫智超本人回复，邮箱是 weizhichao1027@gmail.com。</p>
+          <p>毛孩子是已在 App Store 上架的 iPhone 宠物照顾应用。没有账号系统。支持由开发者卫智超本人回复，邮箱是 weizhichao1027@gmail.com。通常在几个工作日内回复。</p>
         </div>
       </header>
 
@@ -182,47 +188,70 @@
 
       <section class="how">
         <div class="wrap">
-          <article>
+          <ul class="how-toc">
+            <li><a href="#install">安装</a></li>
+            <li><a href="#pet">宠物</a></li>
+            <li><a href="#today">今日</a></li>
+            <li><a href="#records">记录</a></li>
+            <li><a href="#medical">医疗</a></li>
+            <li><a href="#summary">摘要</a></li>
+            <li><a href="#care">照看</a></li>
+            <li><a href="#me">我的</a></li>
+            <li><a href="#helper">助手</a></li>
+            <li><a href="#recover">恢复</a></li>
+            <li><a href="#faq">问答</a></li>
+          </ul>
+
+          <article id="install">
             <h2>从 App Store 安装或更新</h2>
-            <p>在 iPhone 打开 App Store，搜索「毛孩子」或「Pet Care Notes」，或使用<a href="https://apps.apple.com/app/id6788202619">这条 App Store 链接</a>。App 免费，需要 iOS 17 或更高版本，仅适配 iPhone。更新也在 App Store 完成。</p>
+            <p>在 iPhone 打开 App Store，搜索「毛孩子」或「Pet Care Notes」，或使用<a href="https://apps.apple.com/app/id6788202619">这条 App Store 链接</a>。App 免费，需要 iOS 17 或更高版本，仅适配 iPhone。更新也在 App Store 完成。当前商店版本是 1.1。</p>
           </article>
-          <article>
+          <article id="pet">
             <h2>添加宠物</h2>
-            <p>打开「宠物」。没有档案时点「添加宠物」；已有档案时点右上角加号。填写名字并选择猫或狗后保存。系统会按类型生成常用照顾计划。过敏、慢病、常用药、喂食偏好和照顾备注写在同一只宠物下面。头像和化验单只从相册选择，相机会保持关闭。</p>
+            <p>打开「宠物」。没有档案时点「添加宠物」；已有档案时点右上角加号。填写名字并选择猫或狗后保存。系统会按类型生成常用照顾计划（疫苗、驱虫、称重、年度体检；猫砂盆 / 狗洗护）。过敏、慢病、常用药、喂食偏好、照顾备注、芯片号、保险和常用医院写在同一只宠物下面。头像和附件只从相册选择，相机会保持关闭。</p>
           </article>
-          <article>
+          <article id="today">
             <h2>今日</h2>
-            <p>打开 App 后，先看照顾舱、今日打卡和待办。完成喂食或事项后点完成。疫苗、驱虫、体检到期会显示在这里。需要本地提醒时，在「我的」打开通知权限。</p>
+            <p>打开 App 后，先看照顾舱、今日打卡和待办。完成喂食或事项后点完成。待办也可以点进去改期。疫苗、驱虫、体检到期会显示在这里。需要本地提醒时，在「我的」打开通知权限。未开通知时，App 不会每次冷启动都打断你。</p>
           </article>
-          <article>
+          <article id="records">
             <h2>记录</h2>
-            <p>用几秒记下食欲、饮水、便便和精神。异常时补次数、持续时间和照片。体重可以另看趋势。时间线是给自己和医生看的事实，不是诊断。</p>
+            <p>十类：食欲、饮水、便便、尿尿、呕吐、精神、体重、异常、用药、备注。用预设值快填，可改时间、加备注、从相册附照片。时间线可按全部 / 异常 / 体重 / 照片筛选，点进详情或编辑。体重筛选旁有趋势入口。时间线是给自己和医生看的事实，不是诊断。</p>
           </article>
-          <article>
+          <article id="medical">
+            <h2>医疗记录</h2>
+            <p>类型：疫苗、驱虫、体检、手术、用药、过敏、病史、其他。字段包括标题、详情、发生日和下次到期。可从相册附照片。到期事项会回到今日。这不是独立的化验单管理系统。</p>
+          </article>
+          <article id="summary">
             <h2>摘要</h2>
-            <p>就诊前生成 7、14 或 30 天摘要。它只整理你已经写下的记录，不会下诊断。可以导出 PDF 或图片，发给家人或带到医院。</p>
+            <p>就诊前生成 7、14 或 30 天摘要。它聚合档案、过敏、慢病、用药、记录概览、体重变化、时间线、医疗和已完成事项，不会下诊断。可以导出 PDF 或图片，发给家人或带到医院。</p>
           </article>
-          <article>
+          <article id="care">
             <h2>临时照看</h2>
-            <p>在宠物页打开临时照看清单，只包含这一只宠物的过敏、喂食、备注和未完成事项。可分享文本或 PDF。</p>
+            <p>在宠物页打开临时照看清单，只包含这一只宠物的过敏、慢病、常用药、喂食、备注、未完成事项，以及不要自行换药或改剂量的边界说明。可分享文本或 PDF。对方不需要安装或登录。</p>
           </article>
-          <article>
+          <article id="me">
             <h2>我的：备份、语言、删除</h2>
             <ul>
-              <li>完整备份是 zip，含文字和照片。请自己存到文件或电脑。没有 iCloud 或云同步。删掉 App 且未导出，数据会丢。</li>
+              <li>完整备份是 zip（backup.json 加 files/ 里的照片）。请自己存到文件或电脑。没有 iCloud 或云同步。删掉 App 且未导出，数据会丢。</li>
               <li>文本导出只有健康记录文字，不含照片文件。</li>
-              <li>界面语言可跟随系统，或在「我的」指定 13 种语言之一。</li>
+              <li>界面语言可跟随系统，或在「我的」指定 13 种语言之一。阿拉伯语为从右到左。</li>
               <li>删除宠物或记录后，数据会先隐藏。可在「我的」永久清理，或恢复前再确认。</li>
+              <li>演示数据在「我的 › 查看隐私说明」底部，带「演示」标记，只供审核预览，可一键清除。</li>
             </ul>
           </article>
-          <article>
+          <article id="helper">
             <h2>照顾助手</h2>
-            <p>助手在本机用关键词整理你写的观察，生成就医准备和观察要点。它不是线上问诊，不会给出处方或剂量。</p>
+            <p>助手在本机用关键词整理你写的观察，生成风险等级、建议动作、观察点和就医准备。它不联网、不调用外部模型，不是线上问诊，不会给出处方或剂量。结果可存成异常记录。</p>
+          </article>
+          <article id="recover">
+            <h2>本机库打不开</h2>
+            <p>如果启动时本机库打不开，会看到恢复页：重试、导入备份，或重建空库。重建空库会清空当前设备上未导出的内容。换机请走 zip 备份，不要指望 iCloud。</p>
           </article>
         </div>
       </section>
 
-      <section class="qa">
+      <section class="qa" id="faq">
         <div class="wrap">
           <h2>常见问题</h2>
           <p class="faq-lead">下面每条都先回答结论，方便直接引用。</p>
@@ -241,7 +270,11 @@
             </div>
             <div>
               <dt>今日待办和打卡怎么用？</dt>
-              <dd>打开 App 先看「今日」。照顾舱、四项打卡（食欲、饮水、便便、精神）和待办都在这里。做完喂食或事项后点完成。疫苗、驱虫、体检到期也会显示在今日。</dd>
+              <dd>打开 App 先看「今日」。照顾舱、四项打卡（食欲、饮水、便便、精神）和待办都在这里。做完喂食或事项后点完成。待办也可以点进去改期。疫苗、驱虫、体检到期也会显示在今日。</dd>
+            </div>
+            <div>
+              <dt>健康记录有哪些类型？</dt>
+              <dd>十类：食欲、饮水、便便、尿尿、呕吐、精神、体重、异常、用药、备注。记录可以点进详情或编辑。体重筛选旁有趋势入口。</dd>
             </div>
             <div>
               <dt>就诊摘要怎么生成？</dt>
@@ -272,6 +305,10 @@
               <dd>不能。演示数据写在本机正式库里，只供审核预览，带「演示」或 Demo 标记。可在「我的 › 查看隐私说明」一键清除。日常请建自己的档案。</dd>
             </div>
             <div>
+              <dt>库打不开怎么办？</dt>
+              <dd>App 会显示恢复页：重试、导入备份，或重建空库。重建空库会丢掉当前设备上未导出的数据。</dd>
+            </div>
+            <div>
               <dt>有没有 Android 或网页版？</dt>
               <dd>没有。当前只提供 iPhone。家庭协作和账号也没有做。</dd>
             </div>
@@ -281,7 +318,7 @@
             </div>
             <div>
               <dt>如何联系支持？</dt>
-              <dd>写信到 <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>。请写上设备型号、iOS 版本、App 版本、所在页面和复现步骤。也可先看<a href="privacy-policy.html">隐私政策</a>或<a href="https://apps.apple.com/app/id6788202619">App Store 页面</a>。</dd>
+              <dd>写信到 <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>。请写上设备型号、iOS 版本、App 版本、所在页面和复现步骤。通常在几个工作日内回复。也可先看<a href="privacy-policy.html">隐私政策</a>或<a href="https://apps.apple.com/app/id6788202619">App Store 页面</a>。</dd>
             </div>
           </dl>
         </div>
@@ -301,7 +338,7 @@
       <div class="wrap">
         <div>
           <p>毛孩子技术支持 · 仅 iOS · 卫智超 · 上海</p>
-          <p>weizhichao1027@gmail.com</p>
+          <p>weizhichao1027@gmail.com · 页面更新 2026-09-18</p>
         </div>
         <div class="footer-links">
           <a href="./">产品首页</a>

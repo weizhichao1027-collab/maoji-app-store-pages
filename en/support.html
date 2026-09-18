@@ -3,36 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pet Care Notes Support &amp; FAQ | Install, backup, contact</title>
-  <meta name="description" content="Pet Care Notes is live on the App Store. How to install, add a pet, log records, back up, fix notifications, and delete data. Email weizhichao1027@gmail.com.">
+  <title>Pet Care Notes Support &amp; FAQ | Install, backup, change phones</title>
+  <meta name="description" content="Pet Care Notes is live on the App Store. How to install, add a pet, log ten record types, build a visit summary, back up with a zip, fix notifications, and delete data. Email weizhichao1027@gmail.com.">
   <meta name="author" content="Weizhichao Wei">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#2f6a4c">
   <meta name="apple-itunes-app" content="app-id=6788202619">
   <link rel="canonical" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/support.html">
   <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html">
   <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/support.html">
   <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/llms.txt">
+  <link rel="author" href="mailto:weizhichao1027@gmail.com">
+  <link rel="manifest" href="../manifest.webmanifest">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Pet Care Notes">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
   <meta property="og:title" content="Pet Care Notes Support &amp; FAQ">
-  <meta property="og:description" content="Install, today’s tasks, records, backup, notifications, and contact email.">
+  <meta property="og:description" content="Install, today’s tasks, ten record types, visit summaries, zip backup, notifications, and contact email.">
   <meta property="og:url" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/support.html">
   <meta property="og:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pet Care Notes app icon">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Pet Care Notes Support &amp; FAQ">
   <meta name="twitter:description" content="How to use Pet Care Notes, common questions, and contact.">
   <meta name="twitter:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
+  <meta name="twitter:image:alt" content="Pet Care Notes app icon">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/site.css">
+  <style>
+    :root {
+      --display: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", serif;
+      --sans: "Source Sans 3", "Helvetica Neue", sans-serif;
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -43,7 +54,7 @@
         "url": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/support.html",
         "name": "Pet Care Notes Support & FAQ",
         "inLanguage": "en",
-        "dateModified": "2026-09-16",
+        "dateModified": "2026-09-18",
         "about": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#app" }
       },
       {
@@ -54,71 +65,69 @@
         ]
       },
       {
+        "@type": "HowTo",
+        "name": "Move Pet Care Notes to a new iPhone with a zip backup",
+        "description": "Pet Care Notes has no iCloud sync. Export a zip with photos on the old device, then import it on the new iPhone.",
+        "totalTime": "PT10M",
+        "tool": [{ "@type": "HowToTool", "name": "Two iPhones with Pet Care Notes 1.1 installed" }],
+        "step": [
+          { "@type": "HowToStep", "name": "Export on the old device", "text": "Open Pet Care Notes › Me › export a full backup, and save the zip to Files, a computer, or your own drive." },
+          { "@type": "HowToStep", "name": "Move the file", "text": "Use AirDrop, a cable, or your own drive so the zip is reachable on the new iPhone." },
+          { "@type": "HowToStep", "name": "Import on the new device", "text": "Open Pet Care Notes › Me › import backup, and pick that zip. Pets with the same id are merged and updated." }
+        ]
+      },
+      {
         "@type": "FAQPage",
         "mainEntity": [
           {
             "@type": "Question",
             "name": "Where do I download Pet Care Notes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Pet Care Notes is live on the App Store. On iPhone, open the App Store and search for Pet Care Notes or 毛孩子, or use https://apps.apple.com/app/id6788202619. The app is free, iPhone only, and needs iOS 17 or later."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "Pet Care Notes is live on the App Store. On iPhone, open the App Store and search for Pet Care Notes or 毛孩子, or use https://apps.apple.com/app/id6788202619. The app is free, iPhone only, and needs iOS 17 or later." }
           },
           {
             "@type": "Question",
             "name": "How do I update Pet Care Notes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Open the Pet Care Notes page in the App Store on iPhone, or use the Updates list, then tap Update. The current store version is 1.1."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "Open the Pet Care Notes page in the App Store on iPhone, or use the Updates list, then tap Update. The current store version is 1.1." }
           },
           {
             "@type": "Question",
             "name": "How do I add a pet?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Open Pet Care Notes and go to Pets. If you have no file yet, tap Add pet. If you already have one, tap the plus button. Enter a name, choose cat or dog, and save. The app then creates common care tasks for that type."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "Open Pet Care Notes and go to Pets. If you have no file yet, tap Add pet. If you already have one, tap the plus button. Enter a name, choose cat or dog, and save. The app then creates common care tasks for that type." }
+          },
+          {
+            "@type": "Question",
+            "name": "What health-record types are there?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ten types: appetite, water, stool, urine, vomiting, energy, weight, unusual signs, medication traces, and remarks. Open a row to view or edit it. Weight has a trend next to that filter." }
           },
           {
             "@type": "Question",
             "name": "Does Pet Care Notes sync with iCloud?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. There is no iCloud, CloudKit, or developer-server sync. Before you change phones, export a zip with photos under Me, then import it on the new iPhone. Delete the app without an export and the on-device data is gone."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "No. There is no iCloud, CloudKit, or developer-server sync. Before you change phones, export a zip with photos under Me, then import it on the new iPhone. Delete the app without an export and the on-device data is gone." }
           },
           {
             "@type": "Question",
             "name": "Why did a due item stay silent?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Go to iOS Settings › Notifications › Pet Care Notes and allow alerts. If you had tapped Don’t Allow, the app cannot turn this back on by itself. After you allow it, return to Me and sync reminders. Alerts are local and do not pass through a developer server."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "Go to iOS Settings › Notifications › Pet Care Notes and allow alerts. If you had tapped Don’t Allow, the app cannot turn this back on by itself. After you allow it, return to Me and sync reminders. Alerts are local and do not pass through a developer server." }
           },
           {
             "@type": "Question",
             "name": "How do I delete my data?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Deleted pets or records are hidden first. Purge them under Me, or uninstall the app to remove the local container. The developer has no cloud copy and cannot erase or restore it remotely."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "Deleted pets or records are hidden first. Purge them under Me, or uninstall the app to remove the local container. The developer has no cloud copy and cannot erase or restore it remotely." }
           },
           {
             "@type": "Question",
             "name": "Can it diagnose or suggest a dose?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Summaries and the helper only arrange what you wrote. They do not diagnose, prescribe, or suggest a dose. Ask a veterinarian in person."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Summaries and the helper only arrange what you wrote. They do not diagnose, prescribe, or suggest a dose. Ask a veterinarian in person." }
+          },
+          {
+            "@type": "Question",
+            "name": "What if the on-device store will not open?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The app shows a recovery screen: retry, import a backup, or rebuild an empty store. Rebuilding an empty store drops data on this device that you have not exported." }
           },
           {
             "@type": "Question",
             "name": "How do I contact support?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Email weizhichao1027@gmail.com. Include device model, iOS version, app version, the screen you were on, and the steps to reproduce. Weizhichao Wei answers support mail."
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "Email weizhichao1027@gmail.com. Include device model, iOS version, app version, the screen you were on, and the steps to reproduce. Weizhichao Wei answers support mail, usually within a few business days." }
           }
         ]
       }
@@ -140,6 +149,7 @@
           <a href="support.html" aria-current="page">Support</a>
           <a href="privacy-policy.html">Privacy</a>
         </nav>
+        <a class="header-store" href="https://apps.apple.com/app/id6788202619">App Store</a>
         <span class="lang-toggle" role="group" aria-label="Language">
           <a href="../support.html" hreflang="zh-Hans" lang="zh-Hans">中文</a>
           <a href="support.html" hreflang="en" lang="en" aria-current="true">EN</a>
@@ -159,7 +169,7 @@
           <p class="live-badge"><span class="live-dot" aria-hidden="true"></span>Now on the App Store · 1.1</p>
           <p class="kicker">Support</p>
           <h1>How to use it, and what to do if it stalls</h1>
-          <p>Pet Care Notes is a live iPhone app on the App Store. There is no account. Weizhichao Wei answers support mail at weizhichao1027@gmail.com.</p>
+          <p>Pet Care Notes is a live iPhone app on the App Store. There is no account. Weizhichao Wei answers support mail at weizhichao1027@gmail.com, usually within a few business days.</p>
         </div>
       </header>
 
@@ -173,47 +183,70 @@
 
       <section class="how">
         <div class="wrap">
-          <article>
+          <ul class="how-toc">
+            <li><a href="#install">Install</a></li>
+            <li><a href="#pet">Pets</a></li>
+            <li><a href="#today">Today</a></li>
+            <li><a href="#records">Records</a></li>
+            <li><a href="#medical">Medical</a></li>
+            <li><a href="#summary">Summaries</a></li>
+            <li><a href="#care">Hand-off</a></li>
+            <li><a href="#me">Me</a></li>
+            <li><a href="#helper">Helper</a></li>
+            <li><a href="#recover">Recovery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+
+          <article id="install">
             <h2>Install or update from the App Store</h2>
-            <p>On iPhone, open the App Store and search for Pet Care Notes or 毛孩子, or use <a href="https://apps.apple.com/app/id6788202619">this App Store link</a>. The app is free, iPhone only, and needs iOS 17 or later. Updates also come from the App Store.</p>
+            <p>On iPhone, open the App Store and search for Pet Care Notes or 毛孩子, or use <a href="https://apps.apple.com/app/id6788202619">this App Store link</a>. The app is free, iPhone only, and needs iOS 17 or later. Updates also come from the App Store. The current store version is 1.1.</p>
           </article>
-          <article>
+          <article id="pet">
             <h2>Add a pet</h2>
-            <p>Open Pets. If the list is empty, tap Add pet. If you already have a file, tap the plus button. Enter a name, choose cat or dog, and save. The app creates a common care plan for that type. Allergies, conditions, usual meds, feeding notes, and care remarks sit on that pet. Avatars and lab sheets come from the photo library. The camera stays closed.</p>
+            <p>Open Pets. If the list is empty, tap Add pet. If you already have a file, tap the plus button. Enter a name, choose cat or dog, and save. The app creates a common care plan for that type (vaccines, deworming, weigh-in, yearly exam; litter for cats / grooming for dogs). Allergies, conditions, usual meds, feeding notes, care remarks, microchip id, insurance, and clinic contact sit on that pet. Avatars and attachments come from the photo library. The camera stays closed.</p>
           </article>
-          <article>
+          <article id="today">
             <h2>Today</h2>
-            <p>After you open the app, start with the care desk, today’s check-in, and tasks. Mark feeding or a task done when you finish it. Due vaccines, deworming, and exams show here. For local alerts, allow notifications under Me.</p>
+            <p>After you open the app, start with the care desk, today’s check-in, and tasks. Mark feeding or a task done when you finish it. You can also open a task and change its date. Due vaccines, deworming, and exams show here. For local alerts, allow notifications under Me. If alerts are off, the app will not interrupt you on every cold launch.</p>
           </article>
-          <article>
+          <article id="records">
             <h2>Records</h2>
-            <p>Log appetite, water, stool, and mood in a few seconds. When something is off, add counts, duration, and a photo. Weight has its own trend. The timeline is a fact sheet for you and the clinic, not a diagnosis.</p>
+            <p>Ten types: appetite, water, stool, urine, vomiting, energy, weight, unusual signs, medication traces, and remarks. Use a preset, change the time, add a note, and attach a photo from the library. Filter the timeline by all / unusual / weight / photos. Open a row to view or edit it. Weight has a trend next to that filter. The timeline is a fact sheet for you and the clinic, not a diagnosis.</p>
           </article>
-          <article>
+          <article id="medical">
+            <h2>Medical notes</h2>
+            <p>Types: vaccine, deworming, exam, surgery, medication, allergy, history, other. Fields include title, detail, date, and next due. You can attach a photo from the library. Due items return to Today. This is not a dedicated lab-sheet manager.</p>
+          </article>
+          <article id="summary">
             <h2>Summaries</h2>
-            <p>Before a visit, build a 7-, 14-, or 30-day summary. It only arranges notes you already wrote. It does not diagnose. Export a PDF or image for family or the clinic.</p>
+            <p>Before a visit, build a 7-, 14-, or 30-day summary. It gathers the file, allergies, conditions, meds, a record overview, weight change, the timeline, medical notes, and finished tasks. It does not diagnose. Export a PDF or image for family or the clinic.</p>
           </article>
-          <article>
+          <article id="care">
             <h2>Temporary care</h2>
-            <p>From the pet page, open the temporary-care list. It includes only that pet’s allergies, feeding notes, remarks, and open tasks. Share as text or a PDF.</p>
+            <p>From the pet page, open the temporary-care list. It includes only that pet’s allergies, conditions, usual meds, feeding notes, remarks, open tasks, and a note not to change medicine or dose on their own. Share as text or a PDF. The other person does not need the app or an account.</p>
           </article>
-          <article>
+          <article id="me">
             <h2>Me: backup, language, deletion</h2>
             <ul>
-              <li>A full backup is a zip of notes and photos. Save it yourself to Files or a computer. There is no iCloud or cloud sync. Delete the app without an export and the data is gone.</li>
+              <li>A full backup is a zip (backup.json plus photos in files/). Save it yourself to Files or a computer. There is no iCloud or cloud sync. Delete the app without an export and the data is gone.</li>
               <li>Text export is health-record text only. It does not include photo files.</li>
-              <li>The interface can follow the system, or you can pick one of 13 languages under Me.</li>
+              <li>The interface can follow the system, or you can pick one of 13 languages under Me. Arabic is right-to-left.</li>
               <li>Deleted pets or records are hidden first. Purge them under Me, or confirm before you restore.</li>
+              <li>Demo data sits at the bottom of Me › View privacy note. It is marked 演示 or Demo for App Review only and can be cleared in one tap.</li>
             </ul>
           </article>
-          <article>
+          <article id="helper">
             <h2>Care helper</h2>
-            <p>The helper sorts the words you typed, on this device, into visit-prep and watch points. It is not an online consult. It will not give a prescription or a dose.</p>
+            <p>The helper sorts the words you typed, on this device, into a risk level, suggested actions, watch points, and visit-prep notes. It does not go online or call an external model. It is not an online consult. It will not give a prescription or a dose. You can save the result as an unusual-sign record.</p>
+          </article>
+          <article id="recover">
+            <h2>If the on-device store will not open</h2>
+            <p>A recovery screen offers retry, import a backup, or rebuild an empty store. Rebuilding an empty store clears anything on this device that you have not exported. Change phones with a zip backup. Do not expect iCloud.</p>
           </article>
         </div>
       </section>
 
-      <section class="qa">
+      <section class="qa" id="faq">
         <div class="wrap">
           <h2>Common questions</h2>
           <p class="faq-lead">Each answer stands alone so it can be quoted as-is.</p>
@@ -232,7 +265,11 @@
             </div>
             <div>
               <dt>How do I use today’s tasks and check-in?</dt>
-              <dd>Open the app and start on Today. The care desk, the four-item check-in (appetite, water, stool, mood), and tasks are there. Mark feeding or a task done when you finish it. Due vaccines, deworming, and exams also show on Today.</dd>
+              <dd>Open the app and start on Today. The care desk, the four-item check-in (appetite, water, stool, mood), and tasks are there. Mark feeding or a task done when you finish it. You can also open a task and change its date. Due vaccines, deworming, and exams also show on Today.</dd>
+            </div>
+            <div>
+              <dt>What health-record types are there?</dt>
+              <dd>Ten types: appetite, water, stool, urine, vomiting, energy, weight, unusual signs, medication traces, and remarks. Open a row to view or edit it. Weight has a trend next to that filter.</dd>
             </div>
             <div>
               <dt>How do I build a visit summary?</dt>
@@ -263,6 +300,10 @@
               <dd>No. Demo data is written into the real on-device store for App Review only. It is marked 演示 or Demo and can be cleared under Me › View privacy note. Build your own file for daily use.</dd>
             </div>
             <div>
+              <dt>What if the on-device store will not open?</dt>
+              <dd>The app shows a recovery screen: retry, import a backup, or rebuild an empty store. Rebuilding an empty store drops data on this device that you have not exported.</dd>
+            </div>
+            <div>
               <dt>Is there Android or a web app?</dt>
               <dd>No. This version is iPhone only. There is also no household sharing and no account.</dd>
             </div>
@@ -272,7 +313,7 @@
             </div>
             <div>
               <dt>How do I contact support?</dt>
-              <dd>Email <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>. Include device model, iOS version, app version, the screen you were on, and the steps to reproduce. You can also read the <a href="privacy-policy.html">privacy policy</a> or the <a href="https://apps.apple.com/app/id6788202619">App Store listing</a>.</dd>
+              <dd>Email <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>. Include device model, iOS version, app version, the screen you were on, and the steps to reproduce. Replies usually come within a few business days. You can also read the <a href="privacy-policy.html">privacy policy</a> or the <a href="https://apps.apple.com/app/id6788202619">App Store listing</a>.</dd>
             </div>
           </dl>
         </div>
@@ -292,7 +333,7 @@
       <div class="wrap">
         <div>
           <p>Pet Care Notes support · iOS only · Weizhichao Wei · Shanghai</p>
-          <p>weizhichao1027@gmail.com</p>
+          <p>weizhichao1027@gmail.com · Page updated 18 September 2026</p>
         </div>
         <div class="footer-links">
           <a href="./">Product</a>

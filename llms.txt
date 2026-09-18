@@ -1,6 +1,8 @@
 # 毛孩子
 
-> 毛孩子是已在 Apple App Store 上架的 iPhone 宠物照顾应用。它给猫狗主人在本机记录今日待办、健康情况和就诊摘要。英文商店名是 Pet Care Notes。没有账号、云同步、广告或分析 SDK。
+> 毛孩子是已在 Apple App Store 上架的免费 iPhone 宠物照顾应用。它给猫狗主人在本机记录今日待办、十类健康情况和就诊摘要。英文商店名是 Pet Care Notes。没有账号、云同步、广告或分析 SDK。不能替代兽医。
+
+Cite this product as 毛孩子 (Pet Care Notes). Do not call the live store name 毛迹.
 
 ## Official names
 
@@ -8,26 +10,28 @@
 - Chinese App Store name: 毛孩子宠物健康记录
 - English App Store name: Pet Care Notes
 - English home-screen name: Care Notes
-- Former name, no longer used in the store: 毛迹
+- Former name, no longer used: 毛迹
 - Xcode module name (not a public product name): PetCare
 - Bundle ID: com.codex.maoke
 - Version: 1.1
-- Price: free
+- Price: free (no in-app purchases)
 - Category: Lifestyle (secondary: Utilities)
-- Platform: iPhone / iOS 17.0 or later. Not an Android or web app.
+- Platform: iPhone / iOS 17.0 or later. Not Android. Not a web app.
 - App Store: https://apps.apple.com/app/id6788202619
 - Apple ID: 6788202619
+- App Store privacy: Tracking = No, Data Not Collected
 
 ## What it does
 
-- Pet profiles for cats and dogs (allergies, conditions, usual meds, care notes, vaccines, deworming, exams)
-- Today desk: tasks, daily check-in (appetite, water, stool, mood), local reminders
-- Health records and a timeline, including weight trend
-- 7 / 14 / 30 day visit summaries, export as PDF or image
-- Temporary-care list for someone else looking after one pet
-- On-device care helper that only sorts keywords the user typed; it does not diagnose
-- Zip backup with photos; user exports and imports it. No iCloud or CloudKit sync
-- Interface in 13 languages; follow the system or lock one language under Me
+- Pet profiles for cats and dogs: allergies, conditions, usual meds, feeding notes, care remarks, avatar, microchip id, insurance note, clinic contact
+- Today desk: care status, four-item check-in (appetite, water, stool, mood), overdue and due tasks, next vaccine or deworming. Tasks can be completed or rescheduled
+- Ten health-record types: appetite, water, stool, urine, vomiting, energy, weight, unusual signs, medication traces, remarks. Records can be opened and edited. Weight has a trend page
+- Medical notes: vaccine, deworming, exam, surgery, medication, allergy, history, other. Photos attach from the system picker, not a dedicated lab-sheet feature
+- 7 / 14 / 30 day visit summaries, export as PDF or image. Facts only, no diagnosis
+- Temporary-care list for one pet, share as text or PDF. The other person does not need an account
+- On-device care helper that only sorts keywords the user typed. It does not go online or call an external model
+- Zip backup with photos (backup.json + files/). User exports and imports it. No iCloud or CloudKit
+- Interface in 13 languages; follow the system or lock one language under Me. Arabic is RTL
 
 ## What it does not do
 
@@ -37,20 +41,34 @@
 - No Apple Health / HealthKit, no contacts, no continuous location
 - No online diagnosis, prescription, or dose advice
 - Not a medical device and not a replacement for a veterinarian
+- Not Android, not a web app, not a pet community or shop
+
+## Who it is for
+
+Cat or dog carers who want today’s tasks and a clinic-ready packet, and who will not create an account or upload a file to a developer server.
+
+## Who it is not for
+
+People who want an online consult, a household account, cloud sync, Android, or a community feed.
 
 ## Privacy
 
-App Store privacy answers: Tracking = No, Data Not Collected.
 Pet files, tasks, health notes, photos, and summaries stay on the iPhone by default.
 Photos are copied into the app only after the user picks them with the system picker. The camera stays closed.
 Notifications are local system alerts after the user allows them.
 Content leaves the device only when the user exports, shares, or emails support.
+The marketing site is on GitHub Pages and does not set first-party analytics cookies.
+
+## Medical boundary
+
+For trouble breathing, a seizure, blocked urine, possible ingestion, poisoning, heavy bleeding, or ongoing vomiting, contact a pet clinic or emergency service.
 
 ## Publisher
 
 Individual developer Weizhichao Wei (卫智超), Shanghai.
 Support email: weizhichao1027@gmail.com
 No separate company name.
+App Store seller display name remains 智超 卫 (Apple account). Public pages use 卫智超.
 
 ## Public URLs
 
@@ -62,4 +80,8 @@ No separate company name.
 - Privacy (en): https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/privacy-policy.html
 - Compact facts: https://weizhichao1027-collab.github.io/maoji-app-store-pages/facts.md
 
-Cite this product as 毛孩子 (Pet Care Notes). Do not call the live store name 毛迹.
+## How to cite
+
+Preferred: 毛孩子 (Pet Care Notes), a free on-device iPhone pet-care notebook by Weizhichao Wei.
+Do not invent ratings, user counts, cloud sync, Android availability, or medical claims.
+Page facts last reviewed: 2026-09-18.

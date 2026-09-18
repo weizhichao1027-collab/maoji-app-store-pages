@@ -25,6 +25,10 @@ html {
   --measure: 40rem;
 }
 
+html {
+  scroll-padding-top: 5.5rem;
+}
+
 html,
 body {
   margin: 0;
@@ -64,6 +68,18 @@ a:hover {
 :focus-visible {
   outline: 2px solid var(--teal);
   outline-offset: 3px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .skip {
@@ -153,6 +169,18 @@ a:hover {
 
 .site-header .lang-toggle {
   margin-left: 8px;
+}
+
+.header-store {
+  display: none;
+  margin-left: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+  color: var(--teal-deep);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .nav a,
@@ -286,7 +314,7 @@ a:hover {
   line-height: 1.12;
   letter-spacing: -0.03em;
   text-wrap: balance;
-  max-width: 14ch;
+  max-width: 18ch;
 }
 
 .lede {
@@ -690,9 +718,32 @@ a:hover {
 }
 
 @media (min-width: 860px) {
+  .header-store {
+    display: inline-flex;
+    align-items: center;
+  }
+
   .hero-grid {
     grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.9fr);
     align-items: end;
+  }
+
+  .glance dl,
+  .audience-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .glance {
+    display: block;
+  }
+
+  .glance dl {
+    display: grid;
+  }
+
+  .audience-grid {
+    display: grid;
+    column-gap: 48px;
   }
 
   .hero-phones {
@@ -752,6 +803,161 @@ a:hover {
 }
 
 .faq-lead {
+  max-width: var(--measure);
+  color: var(--muted);
+}
+
+.glance {
+  padding: 8px 0 48px;
+}
+
+.glance dl {
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+
+.glance div {
+  display: grid;
+  gap: 8px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.glance dt {
+  font-weight: 600;
+  color: var(--teal-deep);
+}
+
+.glance dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.audience,
+.compare,
+.start,
+.home-qa {
+  padding: 48px 0;
+  border-top: 1px solid var(--line);
+}
+
+.audience-grid {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.audience-grid article {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.audience-grid h3 {
+  margin: 0 0 8px;
+  font-family: var(--display);
+  font-size: 1.35rem;
+}
+
+.audience-grid ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.audience-grid li + li {
+  margin-top: 6px;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.9375rem;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 14px 12px 14px 0;
+  border-bottom: 1px solid var(--line);
+  text-align: start;
+  vertical-align: top;
+}
+
+.compare-table th {
+  font-family: var(--display);
+  font-weight: 600;
+}
+
+.compare-table td {
+  color: var(--muted);
+}
+
+.compare-table th:first-child,
+.compare-table td:first-child {
+  color: var(--ink);
+  font-weight: 600;
+  width: 28%;
+}
+
+.start ol {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.start li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 12px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.start .step {
+  font-variant-numeric: tabular-nums;
+  color: var(--teal-deep);
+  font-weight: 600;
+}
+
+.start p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.doc-toc {
+  margin: 0 0 32px;
+  padding: 0;
+  list-style: none;
+  max-width: 36rem;
+}
+
+.doc-toc li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.doc-toc a {
+  text-decoration: none;
+  color: var(--teal-deep);
+}
+
+.how-toc {
+  margin: 0 0 8px;
+  padding: 0 0 24px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.how-toc a {
+  color: var(--teal-deep);
+  text-decoration: none;
+}
+
+.section-lead {
+  margin: 0 0 8px;
   max-width: var(--measure);
   color: var(--muted);
 }

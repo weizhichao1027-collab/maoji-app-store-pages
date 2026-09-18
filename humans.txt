@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: Weizhichao Wei / 卫智超
+Contact: weizhichao1027@gmail.com
+Location: Shanghai, China
+
+/* SITE */
+Last update: 2026-09-18
+Language: zh-Hans, en
+Standards: HTML, CSS
+Software: 毛孩子 / Pet Care Notes 1.1
+App Store: https://apps.apple.com/app/id6788202619

@@ -3,6 +3,8 @@
 - status: live on the App Store
 - version: 1.1
 - price: free
+- in_app_purchases: none
+- ads: none
 - apple_id: 6788202619
 - app_store: https://apps.apple.com/app/id6788202619
 - chinese_name: 毛孩子
@@ -12,17 +14,25 @@
 - former_name: 毛迹
 - bundle_id: com.codex.maoke
 - platform: iPhone, iOS 17.0+
+- not_android: true
+- not_web_app: true
 - account: none
 - cloud_sync: none (no iCloud / CloudKit)
-- ads: none
 - analytics: none
 - tracking: no
 - app_store_privacy: Data Not Collected
 - healthkit: no
 - camera: closed; photos via system picker only
 - notifications: local, after user permission
+- health_record_types: appetite, water, stool, urine, vomit, energy, weight, symptom, medication, note
+- medical_record_types: vaccine, deworming, checkup, surgery, medication, allergy, diagnosis, other
+- visit_summary_windows: 7, 14, 30 days
+- backup: user-exported zip with photos
 - languages: 13 (zh-Hans, zh-Hant, en, ja, ko, es, fr, de, pt-BR, ar, hi, ru, id)
+- diagnoses: no
+- prescriptions: no
+- dose_advice: no
 - developer: Weizhichao Wei / 卫智超, Shanghai
 - email: weizhichao1027@gmail.com
 - site_origin: https://weizhichao1027-collab.github.io/maoji-app-store-pages
-- updated: 2026-09-16
+- updated: 2026-09-18

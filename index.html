@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>毛孩子现已上架 App Store｜本机宠物照顾与就诊记录</title>
-  <meta name="description" content="毛孩子是已在 App Store 上架的 iPhone 宠物照顾应用。记录今日待办、健康情况和就诊摘要。无账号、无广告、无云同步。免费，需 iOS 17。">
-  <meta name="keywords" content="毛孩子,宠物照顾,宠物健康记录,就诊摘要,猫,狗,iPhone,App Store,Pet Care Notes">
+  <meta name="description" content="毛孩子是已在 App Store 上架的免费 iPhone 宠物照顾应用。记录今日待办、十类健康情况和就诊摘要。无账号、无广告、无云同步。需 iOS 17。英文名 Pet Care Notes。">
+  <meta name="keywords" content="毛孩子,毛孩子宠物健康记录,宠物照顾,宠物健康记录,就诊摘要,猫,狗,iPhone,App Store,Pet Care Notes,本机,离线">
   <meta name="author" content="Weizhichao Wei">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#2f6a4c">
   <meta name="apple-itunes-app" content="app-id=6788202619">
   <link rel="canonical" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/">
   <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/">
   <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/">
   <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/llms.txt">
+  <link rel="author" href="mailto:weizhichao1027@gmail.com">
+  <link rel="manifest" href="manifest.webmanifest">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="毛孩子">
   <meta property="og:locale" content="zh_CN">
@@ -22,6 +25,7 @@
   <meta property="og:description" content="本机记下猫狗今天该做什么，再把记录整理成就诊摘要。无账号，无广告，无云同步。">
   <meta property="og:url" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/">
   <meta property="og:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="毛孩子 App 图标与现已上架 App Store">
@@ -29,6 +33,7 @@
   <meta name="twitter:title" content="毛孩子现已上架 App Store">
   <meta name="twitter:description" content="iPhone 上的本机宠物照顾笔记本。免费，无账号，无广告。">
   <meta name="twitter:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
+  <meta name="twitter:image:alt" content="毛孩子 App 图标与现已上架 App Store">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,6 +53,17 @@
         "address": { "@type": "PostalAddress", "addressLocality": "Shanghai", "addressCountry": "CN" }
       },
       {
+        "@type": "Organization",
+        "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#organization",
+        "name": "毛孩子",
+        "alternateName": ["毛孩子宠物健康记录", "Pet Care Notes", "Care Notes"],
+        "url": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/",
+        "logo": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/app-icon.png",
+        "email": "weizhichao1027@gmail.com",
+        "founder": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" },
+        "sameAs": ["https://apps.apple.com/app/id6788202619"]
+      },
+      {
         "@type": "WebSite",
         "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#website",
         "name": "毛孩子",
@@ -63,7 +79,12 @@
         "name": "毛孩子现已上架 App Store",
         "isPartOf": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#website" },
         "inLanguage": "zh-Hans",
-        "dateModified": "2026-09-16"
+        "dateModified": "2026-09-18",
+        "about": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#app" },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".definition", ".lede"]
+        }
       },
       {
         "@type": "MobileApplication",
@@ -77,23 +98,81 @@
         "downloadUrl": "https://apps.apple.com/app/id6788202619",
         "installUrl": "https://apps.apple.com/app/id6788202619",
         "url": "https://apps.apple.com/app/id6788202619",
-        "description": "毛孩子是已在 App Store 上架的 iPhone 宠物照顾应用。面向猫狗主人，在本机记录今日待办、健康情况和就诊摘要。无账号、无云同步、无广告。",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" },
+        "sameAs": "https://apps.apple.com/app/id6788202619",
+        "image": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/app-icon.png",
+        "description": "毛孩子是已在 App Store 上架的 iPhone 宠物照顾应用。面向猫狗主人，在本机记录今日待办、十类健康记录和就诊摘要。无账号、无云同步、无广告。",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY", "availability": "https://schema.org/InStock" },
         "author": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" },
-        "publisher": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" },
+        "publisher": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#organization" },
         "inLanguage": ["zh-Hans", "zh-Hant", "en", "ja", "ko", "es", "fr", "de", "pt-BR", "ar", "hi", "ru", "id"],
         "screenshot": [
           "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/shots/zh-01-today.jpg",
           "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/shots/zh-02-records.jpg",
-          "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/shots/zh-03-summary.jpg"
+          "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/shots/zh-03-summary.jpg",
+          "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/shots/zh-04-pet-detail.jpg",
+          "https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/shots/zh-05-temporary-care.jpg"
         ],
-        "featureList": "宠物档案、今日待办与打卡、健康记录、体重趋势、就诊摘要、临时照看清单、含照片的 zip 备份、13 种界面语言",
-        "softwareHelp": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html"
+        "featureList": "宠物档案（含芯片号、保险、常用医院）、今日待办与四项打卡、十类健康记录、体重趋势、医疗记录、就诊摘要、临时照看清单、含照片的 zip 备份、13 种界面语言",
+        "softwareHelp": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/support.html",
+        "releaseNotes": "1.1 已上架：今日照顾工作台、记录可回看修改、zip 含照片备份、临时照看分享、13 语界面。"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "毛孩子", "item": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "毛孩子是什么？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "毛孩子是已在 Apple App Store 上架的免费 iPhone 宠物照顾应用。它给猫狗主人在本机记录今日待办、健康情况和就诊摘要。英文商店名是 Pet Care Notes。没有账号、云同步或广告。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "毛孩子收费吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不收费。毛孩子免费，没有应用内购买，也没有广告。需要 iPhone 和 iOS 17 或更高版本。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "数据存在哪里？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "宠物档案、待办、记录和照片默认只保存在这台 iPhone。开发者没有云端副本，也没有 iCloud 同步。换机请先导出含照片的 zip。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "有没有 Android 或网页版？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "没有。当前只提供 iPhone。家庭协作和账号也没有做。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "毛孩子能替代兽医吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不能。摘要和照顾助手只整理你写下的内容，不提供诊断、处方或剂量建议。紧急情况请联系线下宠物医院或急诊。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "毛孩子的英文名是什么？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "英文商店名是 Pet Care Notes，英文桌面名是 Care Notes。中文桌面名是毛孩子，中文商店名是毛孩子宠物健康记录。曾用名毛迹已不再使用。"
+            }
+          }
         ]
       }
     ]
@@ -114,6 +193,7 @@
           <a href="support.html">支持</a>
           <a href="privacy-policy.html">隐私</a>
         </nav>
+        <a class="header-store" href="https://apps.apple.com/app/id6788202619">App Store</a>
         <span class="lang-toggle" role="group" aria-label="语言">
           <a href="./" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">中文</a>
           <a href="en/" hreflang="en" lang="en">EN</a>
@@ -125,10 +205,10 @@
       <section class="hero">
         <div class="wrap hero-grid">
           <div>
-            <p class="live-badge"><span class="live-dot" aria-hidden="true"></span>现已上架 App Store</p>
+            <p class="live-badge"><span class="live-dot" aria-hidden="true"></span>现已上架 App Store · 1.1</p>
             <p class="kicker">iPhone 上的宠物照顾笔记本</p>
             <h1>今天该做什么</h1>
-            <p class="definition">毛孩子是一款已在 App Store 上架的 iPhone 宠物照顾应用。它面向猫狗主人，在本机记录今日待办、健康情况和就诊摘要，没有账号、云同步或广告。英文商店名是 Pet Care Notes。</p>
+            <p class="definition">毛孩子是一款已在 App Store 上架的免费 iPhone 宠物照顾应用。它面向猫狗主人，在本机记录今日待办、十类健康情况和就诊摘要，没有账号、云同步或广告。英文商店名是 Pet Care Notes。</p>
             <p class="lede">打开就看见待办和打卡。记下食欲、饮水、便便和精神，再把最近记录整理成医生可读的就诊摘要。数据默认只留在这台 iPhone。</p>
             <div class="cta-row">
               <a class="btn btn-solid" href="https://apps.apple.com/app/id6788202619">在 App Store 下载</a>
@@ -139,6 +219,7 @@
               <span>仅 iPhone</span>
               <span>iOS 17 或更高</span>
               <span>版本 1.1</span>
+              <span>生活 · 工具</span>
             </p>
             <div class="facts">
               <div>
@@ -166,28 +247,87 @@
         </div>
       </section>
 
+      <section class="glance" aria-labelledby="glance-title">
+        <div class="wrap">
+          <h2 id="glance-title" class="visually-hidden">产品事实</h2>
+          <dl>
+            <div>
+              <dt>中文名</dt>
+              <dd>毛孩子（商店名：毛孩子宠物健康记录）</dd>
+            </div>
+            <div>
+              <dt>英文名</dt>
+              <dd>Pet Care Notes（桌面名 Care Notes）</dd>
+            </div>
+            <div>
+              <dt>平台</dt>
+              <dd>仅 iPhone，iOS 17 或更高。没有 Android 或网页版。</dd>
+            </div>
+            <div>
+              <dt>价格与隐私</dt>
+              <dd>免费。App Store 隐私回答为 Data Not Collected。</dd>
+            </div>
+            <div>
+              <dt>开发者</dt>
+              <dd>卫智超 / Weizhichao Wei，上海。邮箱 weizhichao1027@gmail.com。</dd>
+            </div>
+            <div>
+              <dt>曾用名</dt>
+              <dd>毛迹。现已不用，不要再当现行商店名。</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
       <section class="ledger">
         <div class="wrap">
           <ol>
             <li>
               <span class="mark">今日</span>
               <div>
-                <p>待办、逾期、健康打卡，和下一次疫苗或驱虫。</p>
+                <p>照顾舱、四项打卡、逾期与待办，和下一次疫苗或驱虫。待办可以完成，也可以点进去改期。</p>
               </div>
             </li>
             <li>
               <span class="mark">记录</span>
               <div>
-                <p>食欲、饮水、排便、精神、呕吐、体重和用药痕迹，留在时间线里。体重可另看趋势。</p>
+                <p>十类：食欲、饮水、便便、尿尿、呕吐、精神、体重、异常、用药、备注。时间线可回看和修改。体重另有趋势页。</p>
               </div>
             </li>
             <li>
               <span class="mark">摘要</span>
               <div>
-                <p>把 7、14 或 30 天的记录整理成医生可读的材料，导出 PDF 或图片。</p>
+                <p>把 7、14 或 30 天的记录整理成医生可读的材料，导出 PDF 或图片。只整理事实，不含诊断。</p>
               </div>
             </li>
           </ol>
+        </div>
+      </section>
+
+      <section class="audience" id="who">
+        <div class="wrap">
+          <h2>适合谁，不适合谁</h2>
+          <p class="section-lead">毛孩子是本机照顾账本，不是问诊、社区或电商。</p>
+          <div class="audience-grid">
+            <article>
+              <h3>适合</h3>
+              <ul>
+                <li>养猫或养狗，想快速知道今天该做什么</li>
+                <li>就诊前需要一份按时间整理的材料</li>
+                <li>不想注册账号，也不想把档案上传到开发者服务器</li>
+                <li>临时请人照看时，需要交出一份只含这只宠物的清单</li>
+              </ul>
+            </article>
+            <article>
+              <h3>不适合</h3>
+              <ul>
+                <li>要线上确诊、处方或剂量建议</li>
+                <li>要家庭账号、多人实时同步或 iCloud 同步</li>
+                <li>要 Android、网页版或宠物社区</li>
+                <li>把 App 当成医疗器械或正式病历系统</li>
+              </ul>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -196,7 +336,7 @@
           <article class="feature-grid">
             <div class="copy">
               <h2>记下刚刚发生的事</h2>
-              <p>时间线留下可给医生看的线索。异常时可以补次数、持续时间和照片。毛孩子不猜测病因，只保留你写下的事实。</p>
+              <p>时间线留下可给医生看的线索。异常时可以补次数、持续时间和照片。记录可以点进去改。毛孩子不猜测病因，只保留你写下的事实。</p>
             </div>
             <figure class="feature-shot">
               <img src="assets/shots/zh-02-records.jpg" width="360" height="782" alt="毛孩子记录页时间线，含食欲和异常记录">
@@ -206,7 +346,7 @@
           <article class="feature-grid reverse">
             <div class="copy">
               <h2>一只猫的档案</h2>
-              <p>过敏、慢病、常用药和照顾备注放在一起。疫苗、驱虫、体检和化验单照片也在同一只宠物下面。猫和狗都能建档。</p>
+              <p>过敏、慢病、常用药、喂养偏好和照顾备注放在一起，还有芯片号、保险和常用医院。疫苗、驱虫、体检、手术等医疗记录也在同一只宠物下面。健康记录和医疗记录都可以从相册附照片。猫和狗都能建档。</p>
             </div>
             <figure class="feature-shot">
               <img src="assets/shots/zh-04-pet-detail.jpg" width="360" height="782" alt="毛孩子宠物档案：过敏、慢病和照顾备注">
@@ -216,7 +356,7 @@
           <article class="feature-grid">
             <div class="copy">
               <h2>交给临时照看的人</h2>
-              <p>请人照看时，可以交出一份只含这只宠物的清单：过敏、喂食偏好、未完成事项。能分享文本或 PDF。</p>
+              <p>请人照看时，可以交出一份只含这只宠物的清单：过敏、慢病、常用药、喂食偏好、未完成事项，以及不要自行换药的边界说明。能分享文本或 PDF，不需要对方安装或登录。</p>
             </div>
             <figure class="feature-shot">
               <img src="assets/shots/zh-05-temporary-care.jpg" width="360" height="782" alt="毛孩子临时照看清单">
@@ -225,10 +365,60 @@
         </div>
       </section>
 
+      <section class="compare" id="compare">
+        <div class="wrap">
+          <h2>和备忘录、云同步宠物应用有什么不同</h2>
+          <p class="section-lead">下面按事实对照，方便直接引用。</p>
+          <table class="compare-table">
+            <caption class="visually-hidden">毛孩子与备忘录、云同步宠物应用的对照</caption>
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">毛孩子</th>
+                <th scope="col">系统备忘录</th>
+                <th scope="col">常见云同步宠物应用</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">账号</th>
+                <td>没有</td>
+                <td>没有</td>
+                <td>通常要注册</td>
+              </tr>
+              <tr>
+                <th scope="row">数据默认位置</th>
+                <td>本机 iPhone</td>
+                <td>本机，并可进 iCloud</td>
+                <td>开发者或第三方云端</td>
+              </tr>
+              <tr>
+                <th scope="row">今日待办与打卡</th>
+                <td>有，按猫或狗生成</td>
+                <td>要自己写</td>
+                <td>看产品</td>
+              </tr>
+              <tr>
+                <th scope="row">就诊摘要</th>
+                <td>7 / 14 / 30 天，可导出</td>
+                <td>没有</td>
+                <td>看产品</td>
+              </tr>
+              <tr>
+                <th scope="row">诊断或处方</th>
+                <td>明确不做</td>
+                <td>不做</td>
+                <td>有的会做线上问诊</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <section class="languages">
         <div class="wrap">
           <h2>界面有 13 种语言</h2>
-          <p class="lede">可跟随系统，也可在「我的」里单独指定。中文地区商店名是毛孩子宠物健康记录，其他地区是 Pet Care Notes。</p>
+          <p class="lede">可跟随系统，也可在「我的」里单独指定。中文地区商店名是毛孩子宠物健康记录，其他地区是 Pet Care Notes。阿拉伯语为从右到左。</p>
           <ul class="chip-list">
             <li>简体中文</li>
             <li>繁體中文</li>
@@ -253,17 +443,70 @@
           <div class="local-grid">
             <article>
               <h3>含照片的 zip 备份</h3>
-              <p>完整备份是 zip，含文字和照片。存到文件、电脑或你自己的云盘。毛孩子不会替你上传，也没有 iCloud 同步。</p>
+              <p>完整备份是 zip，含文字和照片。存到文件、电脑或你自己的云盘。毛孩子不会替你上传，也没有 iCloud 同步。旧版纯 JSON 仍可导入。</p>
             </article>
             <article>
               <h3>本地提醒</h3>
-              <p>授权后，疫苗、驱虫、体检和照顾事项会用系统本地通知。关闭通知后不再提醒。</p>
+              <p>授权后，疫苗、驱虫、体检和照顾事项会用系统本地通知。关闭通知后不再提醒。未开通知时，App 不会每次打开都打断你。</p>
             </article>
             <article>
               <h3>照顾助手只整理关键词</h3>
-              <p>助手在本机把你写的观察收成就医准备笔记。它不提供诊断、处方或剂量建议，也不能替代兽医。</p>
+              <p>助手在本机把你写的观察收成就医准备笔记。它不联网、不调用外部模型，不提供诊断、处方或剂量建议，也不能替代兽医。</p>
             </article>
           </div>
+        </div>
+      </section>
+
+      <section class="start" id="start">
+        <div class="wrap">
+          <h2>怎么开始</h2>
+          <ol>
+            <li>
+              <span class="step">1</span>
+              <p>在 iPhone 打开 App Store，搜索「毛孩子」或「Pet Care Notes」，或使用本页的商店链接。免费，需要 iOS 17。</p>
+            </li>
+            <li>
+              <span class="step">2</span>
+              <p>打开「宠物」，添加一只猫或狗。App 会按类型生成常用照顾待办。</p>
+            </li>
+            <li>
+              <span class="step">3</span>
+              <p>每天先看「今日」。就诊前打开「摘要」，生成 7、14 或 30 天材料。</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="home-qa qa" id="faq">
+        <div class="wrap">
+          <h2>常见问题</h2>
+          <p class="faq-lead">更完整的用法和排错见<a href="support.html">技术支持</a>。</p>
+          <dl>
+            <div>
+              <dt>毛孩子是什么？</dt>
+              <dd>毛孩子是已在 Apple App Store 上架的免费 iPhone 宠物照顾应用。它给猫狗主人在本机记录今日待办、健康情况和就诊摘要。英文商店名是 Pet Care Notes。没有账号、云同步或广告。</dd>
+            </div>
+            <div>
+              <dt>毛孩子收费吗？</dt>
+              <dd>不收费。毛孩子免费，没有应用内购买，也没有广告。需要 iPhone 和 iOS 17 或更高版本。</dd>
+            </div>
+            <div>
+              <dt>数据存在哪里？</dt>
+              <dd>宠物档案、待办、记录和照片默认只保存在这台 iPhone。开发者没有云端副本，也没有 iCloud 同步。换机请先导出含照片的 zip。</dd>
+            </div>
+            <div>
+              <dt>有没有 Android 或网页版？</dt>
+              <dd>没有。当前只提供 iPhone。家庭协作和账号也没有做。</dd>
+            </div>
+            <div>
+              <dt>毛孩子能替代兽医吗？</dt>
+              <dd>不能。摘要和照顾助手只整理你写下的内容，不提供诊断、处方或剂量建议。紧急情况请联系线下宠物医院或急诊。</dd>
+            </div>
+            <div>
+              <dt>毛孩子的英文名是什么？</dt>
+              <dd>英文商店名是 Pet Care Notes，英文桌面名是 Care Notes。中文桌面名是毛孩子，中文商店名是毛孩子宠物健康记录。曾用名毛迹已不再使用。</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
@@ -292,7 +535,7 @@
       <div class="wrap">
         <div>
           <p>毛孩子 · 宠物照顾记录。英文商店名 Pet Care Notes。曾用名毛迹，现已不再使用。</p>
-          <p>© 2026 Weizhichao Wei · Shanghai</p>
+          <p>© 2026 Weizhichao Wei · Shanghai · 页面更新 2026-09-18</p>
         </div>
         <div class="footer-links">
           <a href="https://apps.apple.com/app/id6788202619">App Store</a>

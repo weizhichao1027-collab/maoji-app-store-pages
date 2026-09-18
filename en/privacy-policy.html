@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pet Care Notes Privacy Policy | On-device storage, data not collected</title>
-  <meta name="description" content="Pet Care Notes privacy policy, updated 16 September 2026. Pet files stay on the iPhone by default. No account, cloud sync, ads, or analytics SDK. App Store answer: Data Not Collected.">
+  <meta name="description" content="Pet Care Notes privacy policy, updated 18 September 2026. Pet files stay on the iPhone by default. No account, cloud sync, ads, or analytics SDK. App Store answer: Data Not Collected.">
+  <meta name="apple-itunes-app" content="app-id=6788202619">
   <meta name="author" content="Weizhichao Wei">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#2f6a4c">
@@ -12,6 +13,9 @@
   <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html">
   <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/privacy-policy.html">
   <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/privacy-policy.html">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://weizhichao1027-collab.github.io/maoji-app-store-pages/llms.txt">
+  <link rel="author" href="mailto:weizhichao1027@gmail.com">
+  <link rel="manifest" href="../manifest.webmanifest">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Pet Care Notes">
   <meta property="og:locale" content="en_US">
@@ -22,7 +26,9 @@
   <meta property="og:image" content="https://weizhichao1027-collab.github.io/maoji-app-store-pages/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="article:modified_time" content="2026-09-16">
+  <meta property="article:modified_time" content="2026-09-18">
+  <meta property="og:image:alt" content="Pet Care Notes app icon">
+  <meta name="twitter:image:alt" content="Pet Care Notes app icon">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Pet Care Notes privacy policy">
   <meta name="twitter:description" content="On-device storage. Data not collected by the developer.">
@@ -31,20 +37,26 @@
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/site.css">
+  <style>
+    :root {
+      --display: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", serif;
+      --sans: "Source Sans 3", "Helvetica Neue", sans-serif;
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebPage",
+        "@type": ["WebPage", "AboutPage"],
         "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/privacy-policy.html#webpage",
         "url": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/en/privacy-policy.html",
         "name": "Pet Care Notes privacy policy",
         "inLanguage": "en",
         "datePublished": "2026-07-07",
-        "dateModified": "2026-09-16",
+        "dateModified": "2026-09-18",
         "about": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#app" },
         "author": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" },
         "publisher": { "@id": "https://weizhichao1027-collab.github.io/maoji-app-store-pages/#publisher" }
@@ -74,6 +86,7 @@
           <a href="support.html">Support</a>
           <a href="privacy-policy.html" aria-current="page">Privacy</a>
         </nav>
+        <a class="header-store" href="https://apps.apple.com/app/id6788202619">App Store</a>
         <span class="lang-toggle" role="group" aria-label="Language">
           <a href="../privacy-policy.html" hreflang="zh-Hans" lang="zh-Hans">中文</a>
           <a href="privacy-policy.html" hreflang="en" lang="en" aria-current="true">EN</a>
@@ -91,30 +104,49 @@
             </ol>
           </nav>
           <h1>Pet Care Notes privacy policy</h1>
-          <p class="meta">Effective 7 July 2026. Last updated 16 September 2026 for the live app version 1.1. This policy covers the Chinese name 毛孩子, the Chinese store name 毛孩子宠物健康记录, and the English store name Pet Care Notes.</p>
+          <p class="meta">Effective 7 July 2026. Last updated 18 September 2026 for the live app version 1.1. This policy covers the Chinese name 毛孩子, the Chinese store name 毛孩子宠物健康记录, and the English store name Pet Care Notes.</p>
         </div>
       </header>
 
       <article class="wrap">
-        <h2>1. Who we are</h2>
+        <ol class="doc-toc">
+          <li><a href="#operator">1. Who we are</a></li>
+          <li><a href="#collect">2. What we collect</a></li>
+          <li><a href="#on-device">3. Data stored on your iPhone</a></li>
+          <li><a href="#not-do">4. What this app does not do</a></li>
+          <li><a href="#photos">5. Photos</a></li>
+          <li><a href="#notify">6. Notifications</a></li>
+          <li><a href="#export">7. Export, share, and backup</a></li>
+          <li><a href="#apis">8. System APIs and the privacy manifest</a></li>
+          <li><a href="#retain">9. Retention, deletion, and withdrawal</a></li>
+          <li><a href="#mail">10. Email you send us</a></li>
+          <li><a href="#third">11. Third parties</a></li>
+          <li><a href="#site">12. This website</a></li>
+          <li><a href="#children">13. Children</a></li>
+          <li><a href="#rights">14. Your rights and regional notes</a></li>
+          <li><a href="#medical">15. Medical boundary</a></li>
+          <li><a href="#changes">16. Changes</a></li>
+          <li><a href="#contact">17. Contact</a></li>
+        </ol>
+        <h2 id="operator">1. Who we are</h2>
         <p>Pet Care Notes is operated by the individual developer Weizhichao Wei (卫智超) in Shanghai, China. There is no separate company name. Contact: <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>. App Store listing: <a href="https://apps.apple.com/app/id6788202619">https://apps.apple.com/app/id6788202619</a>.</p>
 
-        <h2>2. What we collect</h2>
+        <h2 id="collect">2. What we collect</h2>
         <p>This live version does not upload your pet file, tasks, health notes, photo attachments, or visit summaries to a developer server. The developer does not run a cloud database for that content. App Store Connect privacy answers are Data Not Collected, and Tracking is No.</p>
         <p>In ordinary use the operator does not receive your name, email (unless you write to us), precise location, contacts, Health app data, payment data, or an advertising identifier.</p>
 
-        <h2>3. Data stored on your iPhone</h2>
+        <h2 id="on-device">3. Data stored on your iPhone</h2>
         <p>What you type is stored on this device by default, using SwiftData and the app’s local container (Application Support), including:</p>
         <ul>
           <li>Pet name, type (cat or dog), breed, birthday, sex, neuter status, weight, microchip id, insurance note, clinic contact</li>
           <li>Allergies, chronic conditions, usual medications, feeding preference, care notes</li>
-          <li>Care tasks, reminder times, health records (appetite, water, stool, energy, vomiting, weight, medication traces, and similar), medical notes, visit summaries</li>
+          <li>Care tasks, reminder times, health records (appetite, water, stool, urine, vomiting, energy, weight, unusual signs, medication traces, remarks), medical notes (vaccine, deworming, exam, surgery, medication, allergy, history, other), visit summaries</li>
           <li>Copies of avatars and attachment photos you pick (JPEG, inside the app container; the camera stays closed)</li>
           <li>Interface language preference, the selected pet, and local-notification identifiers (UserDefaults)</li>
         </ul>
         <p>This data is for you to review, build a summary, export, or hand off. The developer cannot read it remotely.</p>
 
-        <h2>4. What this app does not do</h2>
+        <h2 id="not-do">4. What this app does not do</h2>
         <ul>
           <li>No account, sign-in, or household sharing</li>
           <li>No iCloud, CloudKit, or other developer-controlled cloud sync</li>
@@ -123,13 +155,13 @@
           <li>No online diagnosis, prescription, or dose advice</li>
         </ul>
 
-        <h2>5. Photos</h2>
+        <h2 id="photos">5. Photos</h2>
         <p>When you pick images with the system photo picker, Pet Care Notes reads only the photo you selected and stores a JPEG copy in the local attachments folder. It does not scan the whole library and does not open the camera. Deleting the related record, purging hidden data, or deleting the app removes those copies.</p>
 
-        <h2>6. Notifications</h2>
+        <h2 id="notify">6. Notifications</h2>
         <p>After you allow it, Pet Care Notes uses iOS local notifications for vaccines, deworming, exams, and tasks. The system schedules them on the device. They do not pass through a developer server. You can turn them off in iOS Settings › Notifications › Pet Care Notes at any time. After that, local alerts stop.</p>
 
-        <h2>7. Export, share, and backup</h2>
+        <h2 id="export">7. Export, share, and backup</h2>
         <p>Content leaves the app container only when you act, and only to a destination you choose:</p>
         <ul>
           <li>Text export: a text extract of pets on this device, without photo files</li>
@@ -140,34 +172,37 @@
         </ul>
         <p>Those destinations follow their own policies. The developer cannot control them. Importing a zip or an older JSON backup also happens only on the device.</p>
 
-        <h2>8. System APIs and the privacy manifest</h2>
+        <h2 id="apis">8. System APIs and the privacy manifest</h2>
         <p>The app’s PrivacyInfo.xcprivacy file states: no tracking, and no collected data types sent to the developer. Required Reason APIs used are UserDefaults (in-app preferences, reason CA92.1) and file timestamps (local file management, reason C617.1). Export compliance is declared as not using encryption that needs extra documentation.</p>
 
-        <h2>9. Retention, deletion, and withdrawal</h2>
+        <h2 id="retain">9. Retention, deletion, and withdrawal</h2>
         <p>On-device data stays until you delete the record, permanently purge hidden data under Me, delete the app, or clear app data in iOS Settings. After you delete a pet or a record, it is hidden first; you then choose to purge it. A purge removes the matching photos and reminders and leaves pets you still use. Uninstalling the app deletes the local container. Because the developer has no copy, we cannot restore or erase it remotely for you.</p>
 
-        <h2>10. Email you send us</h2>
+        <h2 id="mail">10. Email you send us</h2>
         <p>If you write to weizhichao1027@gmail.com, we see the address, body, and attachments you send, only to answer support or privacy questions. Mail is kept as long as needed to handle that request, then deleted.</p>
 
-        <h2>11. Third parties</h2>
-        <p>The app does not embed a third-party analytics, ads, or sign-in SDK. Third parties you may meet are Apple (App Store distribution and system services such as notifications, the photo picker, the share sheet, and Files) and any share or storage target you pick. This marketing and support site is hosted on GitHub Pages. Opening the site may create ordinary access logs at GitHub. That is not in-app collection.</p>
+        <h2 id="third">11. Third parties</h2>
+        <p>The app does not embed a third-party analytics, ads, or sign-in SDK. Third parties you may meet are Apple (App Store distribution and system services such as notifications, the photo picker, the share sheet, and Files) and any share or storage target you pick.</p>
 
-        <h2>12. Children</h2>
+        <h2 id="site">12. This website</h2>
+        <p>Marketing, support, and privacy pages are hosted on GitHub Pages. This site does not set a first-party analytics or advertising cookie, and it does not embed an analytics SDK. Opening a page may create ordinary access logs at GitHub (for example IP and User-Agent). That is not in-app collection. Screenshots on the site are product demo frames, not your pet file. The Smart App Banner on iPhone is shown by the system from the App Store listing; it does not send your file to the developer.</p>
+
+        <h2 id="children">13. Children</h2>
         <p>Pet Care Notes is for pet carers keeping notes. It is not directed at children under 13, and it does not collect data from children. If a minor uses the app, the notes still stay on that device. A parent or guardian can delete the app or clear its data. We do not knowingly ask children for personal information. The App Store age rating is 13+ because the app may include infrequent pet medical-treatment topics, not because it collects data from children.</p>
 
-        <h2>13. Your rights and regional notes</h2>
+        <h2 id="rights">14. Your rights and regional notes</h2>
         <p>Because care notes do not leave your device by default, access, correction, and deletion happen in the app: edit a record, delete it, purge hidden data, or uninstall. If you emailed us, you can write again to access or delete that correspondence.</p>
         <p>China PIPL: the operator does not automatically collect personal information through this app. On-device processing happens on your iPhone. When you share or back up, you choose the recipient.</p>
         <p>EU / UK GDPR: for in-app pet notes, the developer is not a processor, because those notes never reach our servers. For support email, Weizhichao Wei is the controller of that correspondence, on the basis of answering your request. You may access, correct, erase, or restrict that mail, and you may complain to a supervisory authority.</p>
         <p>California CCPA / CPRA: we do not sell or share personal information, and we do not obtain sellable personal information from app use.</p>
 
-        <h2>14. Medical boundary</h2>
+        <h2 id="medical">15. Medical boundary</h2>
         <p>Pet Care Notes is for pet-care notes and clinic prep. It is not a medical device and does not replace a veterinarian. It does not provide an online diagnosis, a prescription, or dose advice. For urgent or ongoing problems, contact a pet clinic or emergency service.</p>
 
-        <h2>15. Changes</h2>
+        <h2 id="changes">16. Changes</h2>
         <p>If data practices change, for example if cloud sync, accounts, or analytics are added later, this page’s date and text will be updated first, and App Store privacy answers will be updated when required. Use the last-updated date on this page.</p>
 
-        <h2>16. Contact</h2>
+        <h2 id="contact">17. Contact</h2>
         <p>For privacy or data questions, email <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>. Support page: <a href="support.html">support.html</a>. App Store: <a href="https://apps.apple.com/app/id6788202619">Pet Care Notes / 毛孩子</a>.</p>
       </article>
     </main>
@@ -176,7 +211,7 @@
       <div class="wrap">
         <div>
           <p>Pet Care Notes privacy policy · Weizhichao Wei · Shanghai</p>
-          <p>© 2026 Weizhichao Wei · Last updated 16 September 2026</p>
+          <p>© 2026 Weizhichao Wei · Last updated 18 September 2026</p>
         </div>
         <div class="footer-links">
           <a href="./">Product</a>

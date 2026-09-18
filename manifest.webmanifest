@@ -1,0 +1,22 @@
+{
+  "name": "毛孩子 / Pet Care Notes",
+  "short_name": "毛孩子",
+  "description": "已在 App Store 上架的 iPhone 宠物照顾应用。本机记录今日待办、健康情况和就诊摘要。",
+  "start_url": "./",
+  "display": "browser",
+  "lang": "zh-Hans",
+  "background_color": "#eef3ef",
+  "theme_color": "#2f6a4c",
+  "icons": [
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
